@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeIcon from "../../Assets/homeicons.svg";
+import homeIcon from "../../Assets/fullstackdevhome.jpg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import Home2 from "./Home2";
@@ -15,7 +15,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>{" "}

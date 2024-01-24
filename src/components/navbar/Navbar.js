@@ -4,8 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
-import logoLight from "../../Assets/logoLight.png";
-import logoDark from "../../Assets/logoDark.png";
+import logoLight from "../../Assets/LogoLightNS.png";
+import logoDark from "../../Assets/LogoDarkNS.png";
 
 import { Link } from "react-router-dom";
 import "./navbar.css";

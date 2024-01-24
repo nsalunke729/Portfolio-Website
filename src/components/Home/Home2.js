@@ -21,29 +21,27 @@ function Home2() {
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I'm a <i className="primary-header">
-                Self-Taught Web Developer
+             Passionate and results-driven software engineer with expertise in <i className="primary-header">
+             Java, Spring, and full-stack 
               </i>{" "}
-              who loves solving problems and building Websites.
+              development.
               <br />
-              <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
-              new things.
-              <br />
-              <br />I am more interested in building new
+             <br />Proven track record in solving {" "}
+                          <i className="primary-header">complex problems and delivering high-quality </i>
+               software solutions.
+              <br />                          
+              <br />Dedicated to continuous 
               <i>
-                <i className="primary-header">Web Technologies and Products.</i>
-              </i>
+                              <i className="primary-header"> learning, embracing challenges, and thriving</i>
+                          </i> in collaborative team environments.
               <br />
-              <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">Node.js</i> and Modern Javascript
-              Library and Framework like
-              <i className="primary-header"> React.js.</i>
+                          <br />Strong <i className="primary-header">communication skills</i>, adept at translating technical concepts for both {" "}
+                          <i className="primary-header">technical and non-technical stakeholders.</i>
               <br />
               <br />
-              Currently expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
-              here.
+              Committed to {" "}
+            <i className="primary-header">innovation, efficiency, and contributing </i>
+             to a positive team culture. 
             </p>
           </Col>
           <Col md={4} className="myAvtar">

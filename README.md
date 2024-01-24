@@ -1,6 +1,6 @@
 <h2 align="center">
-  Rahul Jha | Portfolio Website<br/>
-  <a href="https://www.rahuljha.info/" target="_blank">rahul jha</a>
+  Niranjan Salunke | Portfolio Website<br/>
+  <a href="https://www.rahuljha.info/" target="_blank">Niranjan Salunke</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme_img.png" />
