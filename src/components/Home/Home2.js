@@ -4,9 +4,9 @@ import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineMail,
+  AiFillPhone
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -66,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/nsalunke729"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,18 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/kumardotexe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:rahul.workmail01@gmail.com"
+                  href="mailto:nsalunke729@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/niranjan-salunke/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -110,13 +99,24 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/dead.programmer/"
+                  href="https://www.instagram.com/nsalunke729/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                   aria-label="instagram"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="tel: +353892075872"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="Call"
+                >
+                  <AiFillPhone />
                 </a>
               </li>
             </ul>
