@@ -3,7 +3,7 @@
   <a href="https://www.linkedin.com/in/niranjan-salunke/" target="_blank">Niranjan Salunke</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme_img.png" />
+  <img alt="Demo" src="./Images/readme_img.jpg" />
 </div>
 
 <br/>
