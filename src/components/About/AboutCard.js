@@ -8,11 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
           <p style={{ textAlign: "justify"}}>
-                      Hi Everyone, I am <span className="primary-header">Niranjan Salunke</span> from Dublin, Ireland.<br />
-                      I have completed my Masters in FinTech from Dublin Business School and Bachlors of Engineering in Information Technology from Vidyalankar Institute of Technology.
+                      Hi Everyone, I am <span className="primary-header">Niranjan Salunke</span> from Dublin, Ireland.
+                      
+                      <br />&nbsp;  &nbsp; I'm Full Stack Developer with 2 years of experience in <span className="primary-header"> designing and developing business critical</span>
+                          web applications for <span className="primary-header"> Fintech </span> Clients in an Agile Environment.
+                      <br/>
+                      &nbsp;  &nbsp; I have completed my Masters in <span className="primary-header"> FinTech </span> from Dublin Business School and Bachlors of Engineering in Information Technology from Vidyalankar Institute of Technology.
             <br />
             <br />
-            In addition to coding, here are some other skills which I have !
+            In addition to coding, here are some other soft skills which I have !
           </p>
           <ul>
             <li className="about-activity">
