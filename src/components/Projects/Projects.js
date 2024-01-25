@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
 
-import PrivateChat from "../../Assets/Projects/PrivateChat.png";
-import Portfolio from "../../Assets/Projects/Portfolio.png";
-import Ecart from "../../Assets/Projects/ecart.png";
-import ExpenseTracker from "../../Assets/Projects/ExpenseTracker.png";
+import Billing from "../../Assets/Projects/Billing.PNG";
+import Sales from "../../Assets/Projects/Sales.png";
+import Cashless from "../../Assets/Projects/Cashless.png";
+import Award from "../../Assets/Projects/Award.jpg";
 
 import "./project.css";
 
@@ -21,40 +21,40 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Ecart}
-              title="E Cart"
-              description="This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database."
-              ghLink="https://github.com/rahuljha4171/E-cart"
-              demoLink="https://ecart.onrender.com/"
+              imgPath={Cashless}
+              title="Cashless Payment"
+                          description="Led a comprehensive quantitative research project analyzing Dublin's cashless transaction landscape, demonstrating expertise in data analysis, technology-driven methodologies, and impactful presentation of insights."
+              ghLink=""
+              demoLink="https://drive.google.com/file/d/1G1D0uqX9dTgQA1irsPqw3CYzDgJoeyp9/view?usp=sharing"
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={Portfolio}
-              title="Portfolio Website"
-              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.info/"
+              imgPath={Sales}
+                          title="Sales Prediction"
+                          description="Researched consumer behavior, analyzing needs and buying processes in a competitive marketing environment. Implemented a CRM system with machine learning to enhance customer retention and enable targeted marketing strategies."
+              ghLink=""
+              demoLink="https://drive.google.com/file/d/1cHJ6tW4sjP5QyxJQXRMILbJRtnkJegWC/view?usp=sharing"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={PrivateChat}
-              title="Private Chat"
+              imgPath={Billing}
+                          title="Billing Management System"
               description="A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase. Have features which allows user for realtime messaging, image sharing and search user."
               ghLink="#"
-              demoLink="https://chat-app-rahuljha4171.vercel.app/"
+                          demoLink="https://drive.google.com/file/d/1Sx2qhSGSGoHhr_Pg6HKprakUgWIMESTO/view?usp=sharing"
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={ExpenseTracker}
-              title="Expense Tracker"
-              description="An online expense tracker using React, Node, Express, and MongoDB as the database. It allows you to keep track of your expenses, investments, and savings. All past transactions are listed, and you can also delete them. "
-              ghLink="https://github.com/rahuljha4171/Expense-Tracker"
-              demoLink="https://expense-tracker.rahuljha4171.vercel.app/"
+                      <ProjectCard
+                          imgPath={Award}
+                          title="Certificates"
+              description="You can have look at my certificates and achievements. "
+              ghLink=""
+                          demoLink="https://drive.google.com/drive/folders/1cgPWq82lbvGOUxAhAsZYdgUOyJKjz3Es?usp=sharing"
             />
           </Col>
         </Row>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../Assets/fullstackdevhome.jpg";
+import Button from "react-bootstrap/Button";
+import { CgWebsite } from "react-icons/cg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import Home2 from "./Home2";
@@ -40,7 +42,16 @@ function Home() {
               />
             </Col>
           </Row>
-        </Container>
+              </Container>
+              <Button
+                  variant="primary"
+                  href="https://drive.google.com/file/d/1H6HxSh_wkOOjRTcjSddIIEbyqMxgUvvj/view?usp=sharing"
+                  target="_blank"
+                  style={{ marginLeft: "10px" }}
+              >
+                  <CgWebsite /> &nbsp;
+                  {"Download Resume"}
+              </Button>
       </Container>
       <Home2 />
       <ScrollToTop />
