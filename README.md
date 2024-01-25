@@ -12,8 +12,8 @@
 
 </div>
 
-Thanks to <a href="https://github.com/rahuljha4171">Rahul Jha</a> .
-You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks in Advance😍!
+Thanks to <a href="https://github.com/rahuljha4171/Portfolio-Website">Rahul Jha</a> .
+You can fork this repo to modify and make changes according to your need.
 
 ## Built With
 
