@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Images",
+    "\\public",
+    "\\src",
+    "\\src\\Assets",
+    "\\src\\components",
+    "\\src\\components\\About",
+    "\\src\\components\\footer",
+    "\\src\\components\\preloader",
+    "\\src\\components\\Projects"
   ],
-  "SelectedNode": "\\C:\\Users\\DELL\\Source\\Repos\\Portfolio-Website",
+  "SelectedNode": "\\Images\\Portfolio_img.png",
   "PreviewInSolutionExplorer": false
 }

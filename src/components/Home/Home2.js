@@ -102,7 +102,7 @@ function Home2() {
                       <h1 data-aos="fade-right">
                           <span className="primary-header">CONNECT </span> WITH ME
                       </h1>
-                      <p data-aos="fade-left">Feel free to connect with me over</p>
+                      <p data-aos="fade-left">Feel free to connect with me over or leave your contact below</p>
                       <ul className="home-about-social-links" data-aos="fade-up">
                           <li className="social-icons">
                               <a
@@ -162,6 +162,21 @@ function Home2() {
                       </ul>
                   </Col>
               </Row>
+              <form name="contact" netlify>
+                  <p data-aos="fade-left">Your Contact</p>
+                  <p>
+                      <label>Name <input type="text" name="name" /></label>
+                  </p>
+                  <p>
+                      <label>Mobile <input type="contact" name="contact" /></label>
+                  </p>
+                  <p>
+                      <label>Email <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                      <button type="submit">Send</button>
+                  </p>
+              </form>
           </Container>
       </Container>
     );

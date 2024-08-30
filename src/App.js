@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [load, upadateLoad] = useState(true);
   const [{ themename }] = React.useContext(ThemeContext);
-
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);

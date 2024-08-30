@@ -6,6 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import Home2 from "./Home2";
+import Home3 from "./Home3"
 import Type from "./Type";
 import "./home.css";
 
@@ -53,7 +54,7 @@ function Home() {
                   {"Download Resume"}
               </Button>
       </Container>
-      <Home2 />
+          <Home2 />
       <ScrollToTop />
     </section>
   );
