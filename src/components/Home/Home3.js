@@ -39,7 +39,7 @@ async function fetchData(API_KEY, messages, setMessages, setIsTyping, userMessag
 }
 
 function Home3() {
-    const API_KEY = "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";
+    const API_KEY = "";
     const [messages, setMessages] = useState([
         {
             role: "system",
