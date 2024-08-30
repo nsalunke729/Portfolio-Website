@@ -47,9 +47,9 @@ function Home2() {
                       <p className="home-about-body" data-aos="fade-up">
                           <br />
                           Passionate and results-driven software engineer with expertise in <i className="primary-header">
-                              Java, Spring, and full-stack
+                              Java, Spring Boot, React and cloud
                           </i>{" "}
-                          development.
+                          full-stack development.
                           <br />
                           <br />Proven track record in solving {" "}
                           <i className="primary-header">complex problems and delivering high-quality </i>
