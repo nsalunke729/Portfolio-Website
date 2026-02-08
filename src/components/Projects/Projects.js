@@ -21,7 +21,7 @@ function Projects() {
         </h1>
         <p>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} lg={4} className="project-card">
+          <Col md={6} lg={4} className="project-card"> // Ensure this image exists in the correct path
                 <ProjectCard
                               imgPath={TenantRentApp} // Ensure this image exists in the correct path
                               title="Tenant Rent App"
@@ -34,6 +34,18 @@ function Projects() {
 
                   <Col md={6} lg={4} className="project-card">
                       <ProjectCard
+                          imgPath={NasaExplorer} // Ensure this image exists in the correct path
+                          title="Nasa Explorer"
+                          description="Tech-Stack: React 18, Axios, Node.js.   
+                          Interactive UI for viewing various data from NASA's public APIs via a custom backend. 
+                          Users can explore the Astronomy Picture of the Day (APOD), Mars Rover Photos, EPIC images, and more."
+                          ghLink="https://github.com/nsalunke729/NasaApp-Frontend"
+                          demoLink="https://nasaapitest.netlify.app/"
+                      />
+                  </Col>
+
+                  <Col md={6} lg={4} className="project-card">
+                      <ProjectCard
                           imgPath={SongLibrary} // Ensure this image exists in the correct path
                           title="Song Library"
                           description="Tech-Stack: React, Node.js.   A web application for managing and discovering songs, including features for song search, filtering, and detailed view of song information.
@@ -42,15 +54,27 @@ function Projects() {
                           demoLink="https://song-library.netlify.app/"
                       />
                   </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={Cashless}
-              title="Cashless Payment"
-                          description="Tech-Stack: Python, Machine Learning.     Led a comprehensive quantitative research project analyzing Dublin's cashless transaction landscape, demonstrating expertise in data analysis, technology-driven methodologies, and impactful presentation of insights."
-              ghLink="https://www.kaggle.com/code/niranjansalunke/cashless-payment"
-              demoLink="https://drive.google.com/file/d/1G1D0uqX9dTgQA1irsPqw3CYzDgJoeyp9/view?usp=sharing"
-            />
-          </Col>
+
+                  <Col md={6} lg={4} className="project-card">
+                      <ProjectCard
+                          imgPath={DeviceAtlas} // Ensure this image exists in the correct path
+                          title="Device Atlas"
+                          description="Tech-Stack: Docker, React, Node.js OR Spring Boot, PostgresSQL.   
+                          App fetches device data from the DeviceAtlas API, stores it in a Microsoft SQL Server database, and provides an API to retrieve tablet devices. Frontend displays the list of tablet devices with details such as device name, manufacturer, and specifications.
+                          As well as the backend is containerized using Docker for easy deployment and scalability."
+                          ghLink="https://github.com/nsalunke729/DeviceAtlas"
+                          demoLink="https://showdevicedetails.netlify.app/"
+                      />
+                  </Col>
+                  <Col md={6} lg={4} className="project-card">
+                    <ProjectCard
+                      imgPath={Cashless}
+                      title="Cashless Payment"
+                                  description="Tech-Stack: Python, Machine Learning.     Led a comprehensive quantitative research project analyzing Dublin's cashless transaction landscape, demonstrating expertise in data analysis, technology-driven methodologies, and impactful presentation of insights."
+                      ghLink="https://www.kaggle.com/code/niranjansalunke/cashless-payment"
+                      demoLink="https://drive.google.com/file/d/1G1D0uqX9dTgQA1irsPqw3CYzDgJoeyp9/view?usp=sharing"
+                    />
+                  </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
