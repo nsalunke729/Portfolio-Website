@@ -93,6 +93,33 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                Experience
+              </Nav.Link>
+            </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/contact"
+                  onClick={() => updateExpanded(false)}
+                >
+                  Contact
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/spotlight"
+                  onClick={() => updateExpanded(false)}
+                >
+                  Spotlight
+                </Nav.Link>
+              </Nav.Item>
           </Nav>
 
           <Nav.Item>

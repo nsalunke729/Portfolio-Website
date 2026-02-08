@@ -4,6 +4,9 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Spotlight from "./components/Spotlight/Spotlight";
+import Experience from "./components/Experience/Experience";
 import Footer from "./components/footer/Footer";
 import { ThemeContext } from "./Context/theme";
 import {
@@ -39,6 +42,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />
             <Route path="/about" element={<About />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/spotlight" element={<Spotlight />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />

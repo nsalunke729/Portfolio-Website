@@ -43,15 +43,15 @@ function Home() {
             </Col>
           </Row>
               </Container>
-              <Button
+                <Button
                   variant="primary"
-                  href="https://drive.google.com/file/d/1H6HxSh_wkOOjRTcjSddIIEbyqMxgUvvj/view?usp=sharing"
+                  href="/Niranjan_Salunke_CV.pdf"
                   target="_blank"
                   style={{ marginLeft: "10px" }}
-              >
+                >
                   <CgWebsite /> &nbsp;
                   {"Download Resume"}
-              </Button>
+                </Button>
       </Container>
           <Home2 />
       <ScrollToTop />

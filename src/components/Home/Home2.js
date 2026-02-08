@@ -44,30 +44,27 @@ function Home2() {
                       <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
                           WHY YOU SHOULD <span className="primary-header"> HIRE </span> ME
                       </h1>
-                      <p className="home-about-body" data-aos="fade-up">
+                                            <p className="home-about-body" data-aos="fade-up">
                           <br />
-                          Passionate and results-driven software engineer with expertise in <i className="primary-header">
-                              Java, Spring Boot, React and cloud
-                          </i>{" "}
-                          full-stack development.
+                                                    Full‑stack developer & <span className="primary-header">SRE/IT Support</span> with <span className="primary-header">5 years</span> delivering <span className="primary-header">business‑critical</span> systems in FinTech and enterprise.
                           <br />
-                          <br />Proven track record in solving {" "}
-                          <i className="primary-header">complex problems and delivering high-quality </i>
-                          software solutions.
+                                                    <br />Expert in <span className="primary-header">React</span>, <span className="primary-header">Java/Spring Boot</span>, <span className="primary-header">.NET/C#</span>, and cloud (AWS/Azure), building scalable microservices, robust APIs, and polished UIs.
                           <br />
-                          <br />Dedicated to continuous
-                          <i>
-                              <i className="primary-header"> learning, embracing challenges, and thriving</i>
-                          </i> in collaborative team environments.
+                                                    <br />Track record of <span className="primary-header">solving complex problems</span>, improving reliability and performance, and shipping features safely with <span className="primary-header">CI/CD</span>, testing, and <span className="primary-header">observability</span>.
                           <br />
-                          <br />Strong <i className="primary-header">communication skills</i>, adept at translating technical concepts for both {" "}
-                          <i className="primary-header">technical and non-technical stakeholders.</i>
+                          <br />Clear communicator who aligns stakeholders and turns ambiguity into actionable delivery.
                           <br />
-                          <br />
-                          Committed to {" "}
-                          <i className="primary-header">innovation, efficiency, and contributing </i>
-                          to a positive team culture.
+                                                    <br />Committed to <span className="primary-header">impact, craftsmanship, and continuous learning</span>.
                       </p>
+                                            <div className="home-badges" data-aos="fade-up">
+                                                <span className="home-badge">Microservices</span>
+                                                <span className="home-badge">REST APIs</span>
+                                                <span className="home-badge">CI/CD</span>
+                                                <span className="home-badge">Cloud (AWS/Azure)</span>
+                                                <span className="home-badge">SLA 99.9%</span>
+                                                <span className="home-badge">MTTR ↓</span>
+                                                <span className="home-badge">Observability</span>
+                                            </div>
                   </Col>
                   <Col md={4} className="myAvtar">
                       <br />
@@ -162,21 +159,7 @@ function Home2() {
                       </ul>
                   </Col>
               </Row>
-              <form name="contact" netlify>
-                  <p data-aos="fade-left">Your Contact</p>
-                  <p>
-                      <label>Name <input type="text" name="name" /></label>
-                  </p>
-                  <p>
-                      <label>Mobile <input type="contact" name="contact" /></label>
-                  </p>
-                  <p>
-                      <label>Email <input type="email" name="email" /></label>
-                  </p>
-                  <p>
-                      <button type="submit">Send</button>
-                  </p>
-              </form>
+              {/* Contact form removed from Home; use Contact page instead */}
           </Container>
       </Container>
     );

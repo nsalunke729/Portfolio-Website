@@ -89,3 +89,100 @@
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+
+/* Filters bar */
+.filters-bar {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 12px !important;
+}
+
+.filters-form .search-input {
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: var(--clr-txt) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.filters-form .search-input::placeholder {
+  color: var(--clr-txt) !important;
+  opacity: 0.6 !important;
+}
+
+.tags-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
+
+.tag-chip {
+  padding: 6px 10px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: var(--clr-txt) !important;
+  font-size: 0.85rem !important;
+}
+.tag-chip:hover {
+  cursor: pointer !important;
+  background: var(--clr-primary) !important;
+  color: var(--clr-bg) !important;
+}
+.tag-chip--active {
+  background: var(--clr-primary) !important;
+  color: var(--clr-bg) !important;
+}
+
+.filters-actions {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.results-count {
+  color: var(--clr-txt) !important;
+  opacity: 0.8 !important;
+}
+.clear-btn {
+  margin-left: auto !important;
+}
+
+/* Tag badges inside cards */
+.card-tags {
+  margin-bottom: 10px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+}
+.tag-badge {
+  display: inline-block !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  color: var(--clr-txt) !important;
+  font-size: 0.75rem !important;
+}
+
+/* Light/Dark variants for badges */
+.dark-mode .tag-badge {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Dev vs SRE tint variants */
+.tag-badge--dev {
+  background: rgba(76, 139, 245, 0.10) !important;
+  border-color: rgba(76, 139, 245, 0.35) !important;
+}
+.dark-mode .tag-badge--dev {
+  background: rgba(76, 139, 245, 0.18) !important;
+  border-color: rgba(76, 139, 245, 0.55) !important;
+}
+.tag-badge--sre {
+  background: rgba(0, 184, 148, 0.10) !important;
+  border-color: rgba(0, 184, 148, 0.35) !important;
+}
+.dark-mode .tag-badge--sre {
+  background: rgba(0, 184, 148, 0.18) !important;
+  border-color: rgba(0, 184, 148, 0.55) !important;
+}

@@ -164,6 +164,21 @@
   color: var(--clr-txt) !important;
 }
 
+.home-badges {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+  margin-top: 8px !important;
+}
+.home-badge {
+  display: inline-block !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  background: transparent !important;
+  border: 1px solid var(--clr-primary) !important;
+  color: var(--clr-txt) !important;
+  font-size: 0.85rem !important;
+}
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;

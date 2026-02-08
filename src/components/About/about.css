@@ -47,6 +47,9 @@
   transform: scale(1.08) !important;
   overflow: hidden !important;
 }
+.tech-icons[title]:hover {
+  cursor: help !important;
+}
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -67,4 +70,116 @@
 }
 .git {
   color: var(--clr-primary);
+}
+
+/* Highlights & Spotlight additions */
+.highlights-title {
+  margin-top: 30px !important;
+  margin-bottom: 10px !important;
+  color: var(--clr-txt) !important;
+}
+
+.highlights {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.stat-card {
+  background: transparent !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 8px !important;
+  padding: 18px !important;
+  text-align: center !important;
+  color: var(--clr-txt) !important;
+}
+.stat-value {
+  font-size: 2.2em !important;
+  font-weight: 600 !important;
+  color: var(--clr-primary) !important;
+}
+.stat-label {
+  opacity: 0.8 !important;
+}
+
+.engage-row {
+  margin-top: 10px !important;
+}
+.engage-actions {
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+}
+.vcf-btn {
+  margin-left: 8px !important;
+}
+
+.spotlight {
+  background: var(--clr-bg) !important;
+}
+.spotlight-hero {
+  min-height: 60vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: var(--clr-txt) !important;
+}
+.spotlight-title {
+  font-size: 2.4em !important;
+  margin-bottom: 8px !important;
+}
+.spotlight-sub {
+  opacity: 0.85 !important;
+  margin-bottom: 18px !important;
+}
+.spotlight-tags {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+  margin-bottom: 18px !important;
+}
+.spotlight-badge {
+  background: transparent !important;
+  border: 1px solid var(--clr-primary) !important;
+  color: var(--clr-txt) !important;
+}
+.spotlight-actions {
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+}
+
+/* Education & Certifications on About */
+.edu-certs {
+  margin-top: 16px !important;
+}
+.edu-section, .certs-section {
+  background: transparent !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  margin-bottom: 12px !important;
+  color: var(--clr-txt) !important;
+}
+.edu-title, .certs-title {
+  font-size: 1.2em !important;
+  margin-bottom: 8px !important;
+}
+.edu-badges, .certs-badges {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+}
+.edu-badge, .certs-badge {
+  background: rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  color: var(--clr-txt) !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  font-size: 0.85rem !important;
+}
+.dark-mode .edu-badge, .dark-mode .certs-badge {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
 }

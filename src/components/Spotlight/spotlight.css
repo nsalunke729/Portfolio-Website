@@ -1,0 +1,62 @@
+.spotlight-page {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-color: var(--clr-bg) !important;
+}
+
+.spotlight-hero {
+  min-height: 60vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: var(--clr-txt) !important;
+}
+.spotlight-title {
+  font-size: 2.4em !important;
+  margin-bottom: 8px !important;
+}
+.spotlight-sub {
+  opacity: 0.85 !important;
+  margin-bottom: 18px !important;
+}
+.spotlight-tags {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+  margin-bottom: 18px !important;
+}
+.spotlight-badge {
+  /* Override Bootstrap badge colors reliably */
+  --bs-badge-bg: rgba(0, 0, 0, 0.06);
+  --bs-badge-color: var(--clr-txt);
+  padding: 6px 10px !important;
+  border-radius: 10px !important;
+  font-size: 0.85rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  color: var(--clr-txt) !important;
+}
+.dark-mode .spotlight-badge {
+  --bs-badge-bg: rgba(255, 255, 255, 0.10);
+  --bs-badge-color: var(--clr-txt);
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+}
+.spotlight-actions {
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+}
+
+.spotlight-section {
+  margin-top: 18px !important;
+  background: transparent !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  color: var(--clr-txt) !important;
+}
+.spotlight-subtitle {
+  margin-bottom: 8px !important;
+}
