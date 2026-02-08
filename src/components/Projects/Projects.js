@@ -9,6 +9,8 @@ import Cashless from "../../Assets/Projects/Cashless.png";
 import Award from "../../Assets/Projects/Award.jpg";
 import TenantRentApp from "../../Assets/Projects/TenantRentApp.jpeg";
 import SongLibrary from "../../Assets/Projects/SongLibrary.PNG";
+import NasaExplorer from "../../Assets/Projects/NasaExplorer.JPG";
+import DeviceAtlas from "../../Assets/Projects/DeviceAtlas.JPG";
 
 import "./project.css";
 
