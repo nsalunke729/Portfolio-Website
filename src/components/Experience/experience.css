@@ -32,18 +32,20 @@
 }
 .ops-badge {
   /* Override Bootstrap badge colors reliably */
-  --bs-badge-bg: rgba(0, 184, 148, 0.10);
+  --bs-badge-bg: rgba(165, 42, 42, 0.20);
   --bs-badge-color: var(--clr-txt);
   padding: 6px 10px !important;
   border-radius: 10px !important;
   font-size: 0.85rem !important;
-  border: 1px solid rgba(0, 184, 148, 0.35) !important;
+  border: 1px solid rgba(165, 42, 42, 0.35) !important;
   color: var(--clr-txt) !important;
+  background-color: var(--bs-badge-bg) !important;
 }
 .dark-mode .ops-badge {
-  --bs-badge-bg: rgba(0, 184, 148, 0.18);
+  --bs-badge-bg: rgba(165, 42, 42, 0.30);
   --bs-badge-color: var(--clr-txt);
-  border: 1px solid rgba(0, 184, 148, 0.55) !important;
+  border: 1px solid rgba(165, 42, 42, 0.55) !important;
+  background-color: var(--bs-badge-bg) !important;
 }
 
 .dev-highlights {
@@ -66,18 +68,51 @@
 }
 .dev-badge {
   /* Override Bootstrap badge colors reliably */
-  --bs-badge-bg: rgba(76, 139, 245, 0.10);
+  --bs-badge-bg: rgba(165, 42, 42, 0.20);
   --bs-badge-color: var(--clr-txt);
   padding: 6px 10px !important;
   border-radius: 10px !important;
   font-size: 0.85rem !important;
-  border: 1px solid rgba(76, 139, 245, 0.35) !important;
+  border: 1px solid rgba(165, 42, 42, 0.35) !important;
   color: var(--clr-txt) !important;
+  background-color: var(--bs-badge-bg) !important;
 }
 .dark-mode .dev-badge {
-  --bs-badge-bg: rgba(76, 139, 245, 0.18);
+  --bs-badge-bg: rgba(165, 42, 42, 0.30);
   --bs-badge-color: var(--clr-txt);
-  border: 1px solid rgba(76, 139, 245, 0.55) !important;
+  border: 1px solid rgba(165, 42, 42, 0.55) !important;
+  background-color: var(--bs-badge-bg) !important;
+}
+
+/* Stronger overrides to beat Bootstrap variant classes */
+.badge.ops-badge,
+.ops-badge[class*="bg-"],
+.ops-badge[class*="text-bg-"] {
+  background-color: rgba(165, 42, 42, 0.20) !important;
+  color: var(--clr-txt) !important;
+  border-color: rgba(165, 42, 42, 0.35) !important;
+}
+.dark-mode .badge.ops-badge,
+.dark-mode .ops-badge[class*="bg-"],
+.dark-mode .ops-badge[class*="text-bg-"] {
+  background-color: rgba(165, 42, 42, 0.30) !important;
+  color: var(--clr-txt) !important;
+  border-color: rgba(165, 42, 42, 0.55) !important;
+}
+
+.badge.dev-badge,
+.dev-badge[class*="bg-"],
+.dev-badge[class*="text-bg-"] {
+  background-color: rgba(165, 42, 42, 0.20) !important;
+  color: var(--clr-txt) !important;
+  border-color: rgba(165, 42, 42, 0.35) !important;
+}
+.dark-mode .badge.dev-badge,
+.dark-mode .dev-badge[class*="bg-"],
+.dark-mode .dev-badge[class*="text-bg-"] {
+  background-color: rgba(165, 42, 42, 0.30) !important;
+  color: var(--clr-txt) !important;
+  border-color: rgba(165, 42, 42, 0.55) !important;
 }
 
 .edu-certs {

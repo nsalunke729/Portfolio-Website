@@ -30,18 +30,36 @@
 }
 .spotlight-badge {
   /* Override Bootstrap badge colors reliably */
-  --bs-badge-bg: rgba(0, 0, 0, 0.06);
+  --bs-badge-bg: rgba(165, 42, 42, 0.20) !important;
   --bs-badge-color: var(--clr-txt);
   padding: 6px 10px !important;
   border-radius: 10px !important;
   font-size: 0.85rem !important;
-  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid rgba(165, 42, 42, 0.35) !important;
   color: var(--clr-txt) !important;
+  background-color: var(--bs-badge-bg) !important;
 }
 .dark-mode .spotlight-badge {
-  --bs-badge-bg: rgba(255, 255, 255, 0.10);
+  --bs-badge-bg: rgba(165, 42, 42, 0.30);
   --bs-badge-color: var(--clr-txt);
-  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  border: 1px solid rgba(165, 42, 42, 0.55) !important;
+  background-color: var(--bs-badge-bg) !important;
+}
+
+/* Stronger overrides to beat Bootstrap variant classes */
+.badge.spotlight-badge,
+.spotlight-badge[class*="bg-"],
+.spotlight-badge[class*="text-bg-"] {
+  background-color: rgba(165, 42, 42, 0.20) !important;
+  color: var(--clr-txt) !important;
+  border-color: rgba(165, 42, 42, 0.35) !important;
+}
+.dark-mode .badge.spotlight-badge,
+.dark-mode .spotlight-badge[class*="bg-"],
+.dark-mode .spotlight-badge[class*="text-bg-"] {
+  background-color: rgba(165, 42, 42, 0.30) !important;
+  color: var(--clr-txt) !important;
+  border-color: rgba(165, 42, 42, 0.55) !important;
 }
 .spotlight-actions {
   display: flex !important;
