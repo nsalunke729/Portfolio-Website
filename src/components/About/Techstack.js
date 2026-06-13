@@ -25,12 +25,18 @@ import {
   SiRedux,
   SiExpress,
   SiOracle,
-  SiApachekafka
+  SiApachekafka,
+  SiDocker,
+  SiGrafana,
+  SiPrometheus,
+  SiVercel,
+  SiVitest,
+  SiGithubactions,
 } from "react-icons/si";
 
 function Techstack() {
   return (
-      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" title="Java">
         <DiJava />
       </Col>
@@ -55,7 +61,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" title="MongoDB">
         <DiMongodb />
       </Col>
-      
       <Col xs={4} md={2} className="tech-icons" title="Git">
         <DiGit />
       </Col>
@@ -68,8 +73,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" title="HTML5">
         <SiHtml5 />
       </Col>
-
-      {/* Additional technologies from CV and projects */}
       <Col xs={4} md={2} className="tech-icons" title="Spring Boot">
         <SiSpring />
       </Col>
@@ -100,8 +103,26 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" title="Kubernetes">
         <SiKubernetes />
       </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Docker">
+        <SiDocker />
+      </Col>
       <Col xs={4} md={2} className="tech-icons" title="Kafka">
         <SiApachekafka />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="GitHub Actions">
+        <SiGithubactions />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Prometheus">
+        <SiPrometheus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Grafana">
+        <SiGrafana />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Vercel">
+        <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Vitest">
+        <SiVitest />
       </Col>
     </Row>
   );

@@ -110,6 +110,24 @@ function Projects() {
           "https://drive.google.com/drive/folders/1cgPWq82lbvGOUxAhAsZYdgUOyJKjz3Es?usp=sharing",
         tags: ["Certificates", "Achievements"],
       },
+      {
+        imgPath: TenantRentApp,
+        title: "Node.js Microservices Platform",
+        description:
+          "A production-grade Node.js microservices platform with containerized services, API gateway, and CI/CD pipelines deployed on Vercel.",
+        ghLink: "https://github.com/nsalunke729/",
+        demoLink: "https://nodejs-application-deploy.vercel.app",
+        tags: ["Node", "Microservices", "Docker", "Kubernetes", "CI/CD", "Vercel", "Backend", "API"],
+      },
+      {
+        imgPath: NasaExplorer,
+        title: "BrightNero – Call Summarisation Tool",
+        description:
+          "AI-powered call summarisation tool that transcribes and summarises sales/support calls, extracts key action items, and provides sentiment analysis.",
+        ghLink: "https://github.com/nsalunke729/",
+        demoLink: "https://call-summary-bay.vercel.app",
+        tags: ["React", "Node", "AI", "NLP", "Vercel", "Full Stack", "Frontend", "Backend"],
+      },
     ],
     []
   );

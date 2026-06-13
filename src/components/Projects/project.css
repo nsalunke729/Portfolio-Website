@@ -6,11 +6,10 @@
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   height: auto !important;
 }
 
@@ -18,12 +17,16 @@
   background: transparent !important;
   color: var(--clr-txt) !important;
   box-shadow: var(--shadow) !important;
-  transition: all 0.5s ease 0s !important;
+  border: 1px solid var(--clr-border) !important;
+  border-radius: 16px !important;
+  transition: all 0.35s ease 0s !important;
   height: 100% !important;
+  overflow: hidden;
 }
 .project-card-view:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
+  transform: translateY(-6px) scale(1.02) !important;
+  box-shadow: var(--shadow-lg) !important;
+  border-color: var(--clr-primary) !important;
 }
 
 .blog-card {
@@ -59,7 +62,7 @@
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
+  opacity: 0.85 !important;
   border-radius: 10px !important;
 }
 
@@ -72,22 +75,38 @@
 .btn-primary {
   color: var(--clr-txt) !important;
   background: transparent !important;
-  border-color: var(--clr-primary) !important;
+  border: 1px solid var(--clr-primary) !important;
+  border-radius: 999px !important;
+  padding: 6px 18px !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.88rem !important;
+  font-weight: 500 !important;
+  transition: all 0.25s ease !important;
+  letter-spacing: 0.02em;
 }
 
 .btn-primary:hover {
-  color: var(--clr-bg) !important;
-  background-color: var(--clr-primary) !important;
+  background: linear-gradient(135deg, var(--clr-grad-start), var(--clr-grad-end)) !important;
+  border-color: transparent !important;
+  color: white !important;
+  box-shadow: var(--glow) !important;
+  transform: translateY(-1px) !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 .project-heading {
-  color: var(--clr-txt) !important;
   font-size: 2.3em !important;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
+  font-family: "Space Grotesk", sans-serif !important;
   padding-top: 10px !important;
+  background: linear-gradient(135deg, var(--clr-grad-start), var(--clr-grad-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Filters bar */
@@ -100,13 +119,22 @@
 }
 
 .filters-form .search-input {
-  background: rgba(0, 0, 0, 0.04) !important;
+  background: var(--clr-bg-alt) !important;
   color: var(--clr-txt) !important;
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid var(--clr-border) !important;
+  border-radius: 12px !important;
+  padding: 10px 16px !important;
+  font-family: "Inter", sans-serif !important;
+  transition: all 0.2s ease !important;
+}
+.filters-form .search-input:focus {
+  border-color: var(--clr-primary) !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15) !important;
+  outline: none !important;
 }
 .filters-form .search-input::placeholder {
   color: var(--clr-txt) !important;
-  opacity: 0.6 !important;
+  opacity: 0.5 !important;
 }
 
 .tags-container {
@@ -116,21 +144,28 @@
 }
 
 .tag-chip {
-  padding: 6px 10px !important;
+  padding: 5px 14px !important;
   border-radius: 999px !important;
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
-  background: rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid var(--clr-border) !important;
+  background: transparent !important;
   color: var(--clr-txt) !important;
-  font-size: 0.85rem !important;
+  font-size: 0.82rem !important;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
 }
 .tag-chip:hover {
   cursor: pointer !important;
-  background: var(--clr-primary) !important;
-  color: var(--clr-bg) !important;
+  background: linear-gradient(135deg, var(--clr-grad-start), var(--clr-grad-end)) !important;
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: var(--glow) !important;
 }
 .tag-chip--active {
-  background: var(--clr-primary) !important;
-  color: var(--clr-bg) !important;
+  background: linear-gradient(135deg, var(--clr-grad-start), var(--clr-grad-end)) !important;
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: var(--glow) !important;
 }
 
 .filters-actions {
@@ -140,7 +175,9 @@
 }
 .results-count {
   color: var(--clr-txt) !important;
-  opacity: 0.8 !important;
+  opacity: 0.7 !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.9em !important;
 }
 .clear-btn {
   margin-left: auto !important;
@@ -155,34 +192,34 @@
 }
 .tag-badge {
   display: inline-block !important;
-  padding: 4px 8px !important;
-  border-radius: 8px !important;
-  background: rgba(0, 0, 0, 0.04) !important;
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  padding: 3px 10px !important;
+  border-radius: 999px !important;
+  background: rgba(99, 102, 241, 0.06) !important;
+  border: 1px solid rgba(99, 102, 241, 0.25) !important;
   color: var(--clr-txt) !important;
-  font-size: 0.75rem !important;
+  font-size: 0.74rem !important;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 500 !important;
 }
 
-/* Light/Dark variants for badges */
 .dark-mode .tag-badge {
-  background: rgba(255, 255, 255, 0.06) !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  background: rgba(167, 139, 250, 0.10) !important;
+  border: 1px solid rgba(167, 139, 250, 0.30) !important;
 }
 
-/* Dev vs SRE tint variants */
 .tag-badge--dev {
-  background: rgba(76, 139, 245, 0.10) !important;
-  border-color: rgba(76, 139, 245, 0.35) !important;
+  background: rgba(99, 102, 241, 0.10) !important;
+  border-color: rgba(99, 102, 241, 0.35) !important;
 }
 .dark-mode .tag-badge--dev {
-  background: rgba(76, 139, 245, 0.18) !important;
-  border-color: rgba(76, 139, 245, 0.55) !important;
+  background: rgba(167, 139, 250, 0.15) !important;
+  border-color: rgba(167, 139, 250, 0.45) !important;
 }
 .tag-badge--sre {
-  background: rgba(0, 184, 148, 0.10) !important;
-  border-color: rgba(0, 184, 148, 0.35) !important;
+  background: rgba(14, 165, 233, 0.10) !important;
+  border-color: rgba(14, 165, 233, 0.35) !important;
 }
 .dark-mode .tag-badge--sre {
-  background: rgba(0, 184, 148, 0.18) !important;
-  border-color: rgba(0, 184, 148, 0.55) !important;
+  background: rgba(56, 189, 248, 0.12) !important;
+  border-color: rgba(56, 189, 248, 0.40) !important;
 }
