@@ -103,16 +103,6 @@ function Projects() {
         tags: [".NET", "C#", "JavaScript", "Firebase", "Chat"],
       },
       {
-        imgPath: Award,
-        title: "Certificates",
-        description:
-          "You can have look at my certificates and achievements.",
-        ghLink: "https://github.com/nsalunke729/",
-        demoLink:
-          "https://drive.google.com/drive/folders/1cgPWq82lbvGOUxAhAsZYdgUOyJKjz3Es?usp=sharing",
-        tags: ["Certificates", "Achievements"],
-      },
-      {
         imgPath: Nodejsapp,
         title: "Node.js Microservices Platform",
         description:
@@ -129,6 +119,16 @@ function Projects() {
         ghLink: "https://github.com/nsalunke729/",
         demoLink: "https://call-summary-bay.vercel.app",
         tags: ["React", "Node", "AI", "NLP", "Vercel", "Full Stack", "Frontend", "Backend"],
+      },
+      {
+        imgPath: Award,
+        title: "Certificates",
+        description:
+          "You can have look at my certificates and achievements.",
+        ghLink: "https://github.com/nsalunke729/",
+        demoLink:
+          "https://drive.google.com/drive/folders/1cgPWq82lbvGOUxAhAsZYdgUOyJKjz3Es?usp=sharing",
+        tags: ["Certificates", "Achievements"],
       },
     ],
     []
