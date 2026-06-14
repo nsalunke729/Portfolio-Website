@@ -4,6 +4,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import AIstack from "./AIstack";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import "./about.css";
@@ -100,6 +101,13 @@ function About() {
         </h1>
         <div data-aos="fade-up">
           <Toolstack data-aos="fade-up" />
+        </div>
+
+        <h1 data-aos="fade-right">
+          <span className="primary-header">AI</span> Skills
+        </h1>
+        <div data-aos="fade-up">
+          <AIstack />
         </div>
 
         <Row className="edu-certs" data-aos="fade-up">
