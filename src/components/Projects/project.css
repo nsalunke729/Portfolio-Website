@@ -22,11 +22,71 @@
   transition: all 0.35s ease 0s !important;
   height: 100% !important;
   overflow: hidden;
+  display: flex !important;
+  flex-direction: column !important;
 }
 .project-card-view:hover {
   transform: translateY(-6px) scale(1.02) !important;
   box-shadow: var(--shadow-lg) !important;
   border-color: var(--clr-primary) !important;
+}
+
+/* Fixed-height image box — all images crop to same size */
+.card-img-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+  flex-shrink: 0;
+}
+.card-img-wrapper .card-img-top {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  opacity: 1 !important;
+  transition: transform 0.4s ease;
+}
+.project-card-view:hover .card-img-wrapper .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Card body stretches to fill remaining height, pins buttons at bottom */
+.project-card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+  padding: 16px !important;
+}
+
+/* Description: clamp to 3 lines so all cards stay same height */
+.project-card-desc {
+  text-align: justify;
+  flex: 1 !important;
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  margin-bottom: 10px !important;
+}
+
+/* Tags area: fixed min-height so cards with fewer tags don't collapse */
+.card-tags {
+  min-height: 52px;
+  margin-bottom: 12px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  align-content: flex-start;
+}
+
+/* Buttons always pinned at the bottom */
+.card-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: auto;
 }
 
 .blog-card {
@@ -183,13 +243,7 @@
   margin-left: auto !important;
 }
 
-/* Tag badges inside cards */
-.card-tags {
-  margin-bottom: 10px !important;
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 6px !important;
-}
+/* Tag badges inside cards — layout defined above in .card-tags */
 .tag-badge {
   display: inline-block !important;
   padding: 3px 10px !important;
