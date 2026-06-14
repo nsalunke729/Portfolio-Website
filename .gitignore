@@ -30,3 +30,5 @@ yarn-error.log*
 Server/node_modules
 Server/config.js
 package-lock.json
+src/Assets/LogoDarkNS_old.png
+src/Assets/LogoLightNS_old.png
