@@ -13,6 +13,8 @@ import TenantRentApp from "../../Assets/Projects/TenantRentApp.jpeg";
 import SongLibrary from "../../Assets/Projects/SongLibrary.PNG";
 import NasaExplorer from "../../Assets/Projects/NasaExplorer.JPG";
 import DeviceAtlas from "../../Assets/Projects/DeviceAtlas.JPG";
+import Nodejsapp from "../../Assets/Projects/Node-js-app.JPG";
+import BrightNero from "../../Assets/Projects/Call-summary project.JPG";
 
 import "./project.css";
 
@@ -111,7 +113,7 @@ function Projects() {
         tags: ["Certificates", "Achievements"],
       },
       {
-        imgPath: TenantRentApp,
+        imgPath: Nodejsapp,
         title: "Node.js Microservices Platform",
         description:
           "A production-grade Node.js microservices platform with containerized services, API gateway, and CI/CD pipelines deployed on Vercel.",
@@ -120,7 +122,7 @@ function Projects() {
         tags: ["Node", "Microservices", "Docker", "Kubernetes", "CI/CD", "Vercel", "Backend", "API"],
       },
       {
-        imgPath: NasaExplorer,
+        imgPath: BrightNero,
         title: "BrightNero – Call Summarisation Tool",
         description:
           "AI-powered call summarisation tool that transcribes and summarises sales/support calls, extracts key action items, and provides sentiment analysis.",
