@@ -1,4 +1,7 @@
 
+# Visual Studio / IDE workspace files
+.vs/
+
 # dependencies
 node_modules
 /.pnp
